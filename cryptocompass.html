@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CryptoCompass Project</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #0e0e0e; color: #fff; padding: 20px; line-height: 1.6; }
+    h1, h2 { color: #00bcd4; }
+    img { max-width: 100%; border: 1px solid #333; border-radius: 8px; margin: 20px 0; }
+    .screenshot-caption { font-style: italic; margin-bottom: 40px; }
+    a { color: #4fc3f7; }
+  </style>
+</head>
+<body>
+  <h1>CryptoCompass</h1>
+  <p><strong>CryptoCompass</strong> is a beginner-focused cryptocurrency recommendation system that combines data-driven forecasting, social sentiment analysis, and live filtering tools to guide novice investors through a clutter-free crypto discovery experience.</p>
+
+  <h2>🌟 Project Goals</h2>
+  <p>The goal was to make investing in crypto accessible to new users by predicting 30-day ROI using linear regression, simplifying risk classification by market cap, and integrating social signals (Twitter, news, and Fear & Greed index) to help users understand public sentiment.</p>
+
+  <h2>🧠 Key Features</h2>
+  <ul>
+    <li>30-day ROI predictions using real historical data</li>
+    <li>Live Twitter and news sentiment analysis via VADER</li>
+    <li>Sector-based and risk-based filtering (e.g., AI, Meme, DeFi)</li>
+    <li>Real-time charts using Chart.js</li>
+    <li>Watchlist functionality for logged-in users</li>
+    <li>API fallback and caching strategies for robustness</li>
+  </ul>
+
+  <h2>🛠️ Tech Stack</h2>
+  <ul>
+    <li><strong>Backend:</strong> Flask (Python), Flask-Login</li>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Chart.js</li>
+    <li><strong>Machine Learning:</strong> Scikit-learn (Linear Regression)</li>
+    <li><strong>Database:</strong> SQLite with SQLAlchemy</li>
+    <li><strong>APIs:</strong> CoinGecko, CryptoCompare, Twitter, News API, Fear & Greed Index</li>
+  </ul>
+
+  <h2>🖼️ Screenshots</h2>
+
+  <img src="home.png" alt="Home Page"/>
+  <p class="screenshot-caption">CryptoCompass Home — Choose your risk level and sector preferences</p>
+
+  <img src="results.png" alt="Results Page"/>
+  <p class="screenshot-caption">Results Page — Filtered coins, ROI predictions, and chart links</p>
+
+  <img src="watchlist.png" alt="Watchlist"/>
+  <p class="screenshot-caption">User Watchlist — Save and monitor favourite coins</p>
+
+  <img src="sentiment.png" alt="Sentiment Analysis"/>
+  <p class="screenshot-caption">Sentiment Analysis — Fear & Greed Index, Twitter and News sentiment</p>
+
+  <img src="chart.png" alt="Chart View"/>
+  <p class="screenshot-caption">Interactive Chart — 30-day ROI trend visualised with Chart.js</p>
+
+  <h2>🔗 Project Links</h2>
+  <ul>
+    <li><a href="https://github.com/Asad1172/Crypto_Reccomendation_App" target="_blank">View GitHub Repository</a></li>
+  </ul>
+
+  <p><a href="index.html">← Back to Portfolio Home</a></p>
+</body>
+</html>
